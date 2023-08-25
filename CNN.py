@@ -167,7 +167,7 @@ for num in range(2):
     val_acc = validate(val_loader, model, criterion)
     train_acc = validate(train_loader, model, criterion)
 
-    print(f"loss:{train_loss},train_acc{train_acc},val_acc{val_acc}")
+    print(f"loss:{train_loss},train_acc:{train_acc},val_acc:{val_acc}")
 
 
 def predict(test_loader, model, criterion):
